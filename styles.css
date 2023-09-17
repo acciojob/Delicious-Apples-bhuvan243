@@ -1,1 +1,37 @@
 /* your code here */
+*{
+	background: #0fe37e;
+}
+.product{
+/* 	background: white; */
+/* 	display: flex; */
+}
+.photo-main{
+	background: #b1e838;
+}
+.controls{
+	display: flex;
+	justify-content: space-between;
+}
+.photo-album>ul, .variant>ul{
+	list-style-type: none;
+	display: flex;
+}
+.photo-album>ul>li>img, .variant>ul>li>img{
+	border: 1px solid #b1e838;
+	background: white;
+}
+#add-to-cart{
+	width: 150px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 600;
+	background: red;
+	color: white;
+	padding: 10px;
+	padding-inline: 5px;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px #cbcbcb;
+}
+
