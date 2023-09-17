@@ -1,17 +1,32 @@
 /* your code here */
-*{
+body{
 	background: #0fe37e;
 }
-.product{
-/* 	background: white; */
-/* 	display: flex; */
+section{
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 200px; 
+}
+.photo-container, .product__info{
+	background: white;
 }
 .photo-main{
 	background: #b1e838;
 }
+.photo-main > img{
+	margin-left: -60px;
+}
 .controls{
 	display: flex;
 	justify-content: space-between;
+	padding: 10px;
+}
+.price{
+	color: red;
+}
+.price>span{
+	font-size: 40px;
 }
 .photo-album>ul, .variant>ul{
 	list-style-type: none;
